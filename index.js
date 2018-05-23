@@ -37,3 +37,7 @@ function removeLastKitten() {
   array.pop();
   return array;
 }
+
+function removeFirstKitten() {
+  
+}
