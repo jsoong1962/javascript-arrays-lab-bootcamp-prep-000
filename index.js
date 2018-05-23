@@ -25,3 +25,9 @@ function appendKitten(name) {
   array.push(name);
   return array;
 }
+
+function prependKitten(name) {
+  var array = kittens.slice(0, kittens.length);
+  array.unshift(name);
+  return array;
+}
