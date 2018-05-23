@@ -31,3 +31,7 @@ function prependKitten(name) {
   array.unshift(name);
   return array;
 }
+
+function removeLastKitten() {
+  
+}
